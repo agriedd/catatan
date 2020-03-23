@@ -21,3 +21,17 @@
 1. edd-sidebar
 
 #### 
+
+### Catatan Singkat
+#### Disable ESLint pada Vue Cli
+
+buat file vue.config.js
+
+tambahkan
+```javascript
+	module.exports = {
+	    chainWebpack: config => {
+	        config.module.rules.delete('eslint');
+	    }
+	}
+```
