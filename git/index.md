@@ -2,7 +2,7 @@
 
 # menginisalisasi git
 
-dengan mengetikan baris perintah seperti dibawa:
+dengan mengetikan baris perintah seperti dibawah:
 
 ```cmd
 
@@ -25,7 +25,7 @@ git config --global user.email "username@mail.com"
 
 ## Mengatur origin pada directory
 
-menggunakan __git pull__ atau __git push__ dengan mengetikan __git pull directory.git branch seperti:
+menggunakan __git pull__ atau __git push__ dengan mengetikan __git pull directory.git__ branch seperti:
 
 ```cmd
 
