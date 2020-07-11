@@ -141,3 +141,12 @@ $ git push remote +dev_branch:master
 
 ```
 
+### menyalin file stashed ke folder tertentu
+```cli
+
+$ cp --parents $(git status -s | egrep "M|A|AM|??" | rev | cut -d" " -f1 | rev) ../modified-files
+
+```
+
+
+

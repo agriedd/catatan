@@ -104,5 +104,6 @@ stop service mysql jika sedang berjalan
 ```cli
 
 sudo apt-get remove mysql-server
+sudo apt-get autoremove
 
 ```
