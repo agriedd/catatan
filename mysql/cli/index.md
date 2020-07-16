@@ -138,3 +138,20 @@ lalu start kembali service
 
 [referensi](https://gist.github.com/elialejandro/9a98d7dec1da4a526d63043f7087ba61) 4/18/2020 5:49:45 AM
 
+## Import data Mysql .sql
+
+```cli
+
+$ mysql -u USERNAME -p -h HOST NAMA_DATABASE < '../file_import.sql'
+
+```
+
+dengan **USERNAME** adalah username dari akun mysql yang terdaftar, **HOST** dengan nama domain atau ip address dari mesin database server, **NAMA_DATABASE** sebagai nama database target dan terakhir lokasi file yang akan diimport
+
+## Export data Mysql .sql
+
+```cli
+
+$ sudo mysql -u USERNAME -p -h HOST NAMA_DATABASE < '../file_target.sql'
+
+``` 
