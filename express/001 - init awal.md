@@ -54,3 +54,17 @@ app.listen(3000, () => console.log('silahkan mengunjungi http://127.0.0.1:3000')
 ```
 Untuk keterangan lebih lanjut mengenai pug bisa dilihat di dokumentasi berikut
 [Dokumentasi Pug](https://pugjs.org/api/getting-started.html)
+
+## Express Generator
+
+Jadi dengan menggunakan express generator ini kita langsung bisa membuat aplikasi menggunakan boilerplate yang disediakan oleh express generator ini
+
+```cli
+npm install -g express-generator
+```
+lalu membuat generator dengan mengetikan
+```cli
+$ express --view=pug myapp
+```
+
+__myapp__ nama project kita --view=[nama_template_engine]
