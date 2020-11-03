@@ -68,3 +68,5 @@ $ express --view=pug myapp
 ```
 
 __myapp__ nama project kita --view=[nama_template_engine]
+
+[Referensi Express Generator](https://expressjs.com/en/starter/generator.html)
